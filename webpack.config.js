@@ -5,7 +5,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 // build with: npx webpack --mode development --config webpack.config.js
 module.exports = {
   entry: {
-    homepage: {
+    index: {
       import: './src/index.js'
     },
   },
